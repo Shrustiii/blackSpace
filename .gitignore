@@ -1,0 +1,9 @@
+build/
+blackspace
+blackspace.exe
+*.o
+*.obj
+*.dSYM/
+.DS_Store
+.vscode/
+.idea/
