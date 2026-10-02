@@ -4,6 +4,20 @@ A 2D space rescue game built in **C++17 with raylib**. Pilot a rescue ship throu
 
 The project was developed for **Game Engineering Principles at Sheridan College**. It combines an arcade rescue loop with object-oriented game entities, collision detection, resource management, and a custom linked-list mission log.
 
+## Screenshots
+
+**Main menu** — mission objective and keyboard controls.
+
+![BlackSpace main menu with the space rescue objective and keyboard controls](docs/screenshots/menu.png)
+
+**Rescue mission** — navigate the asteroid field toward SOS beacons while monitoring health and fuel.
+
+![BlackSpace gameplay showing the rescue ship, asteroids, three SOS beacons, and mission HUD](docs/screenshots/gameplay.png)
+
+**Collision feedback** — a red flash signals asteroid contact as health and fuel decrease.
+
+![BlackSpace asteroid collision with red damage feedback and reduced health and fuel](docs/screenshots/collision.png)
+
 ## The mission
 
 Each mission places three stranded crews and eight drifting asteroids in the playfield. Moving consumes fuel; asteroid contact drains both health and fuel. Get close to an SOS beacon and press Space to rescue its crew, earn 100 points, and recover 12 fuel.
